@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+header{
+  color: orange;
+  background-color: aliceblue;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+header span{
+  margin-left: 50px;
+  font-weight: 600;
+}
+
+.container{
+  width: 80%;
+  margin:0 auto;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 50px;
+  background-color: rgb(38, 227, 107);
+  margin-left: -20px;
+  padding-left: 20px;
+}
+
+section{
+  margin-top: 20px;
+  border: 2px solid black;
+  padding-left: 20px;
+}
+
+.question {
+  background-color: rgb(182, 182, 182);
+  margin-left: -20px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-weight: 400px;
+}
+
+.gap{
+  margin-bottom: 40px;
+}
+

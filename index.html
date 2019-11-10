@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./CSS/reset.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <span>DOMの操作</span>
+  </header>
+
+
+  <div class="container">
+
+
+    <section class="get">
+      <div class="title">
+        <h2>DOMの登録方法</h2>
+      </div>
+
+      <div class="question">
+        <p>【問題】 let 変数名 = document.〇〇</p>
+        <p>〇〇に入る組み込み関数を答えよ</p>
+      </div>
+
+
+      <div class="id gap">
+        <h1>①IDから取得する場合</h1>
+        <button id="idanswer">答えを見る</button>
+      </div>
+
+      <div class="class gap">
+        <h1>②CLASSから取得する場合</h1>
+        <button id="classanswer">答えを見る</button>
+      </div>
+
+      <div class="element gap">
+        <h1>③要素名から取得する場合</h1>
+        <button id="elementanswer">答えを見る</button>
+      </div>
+
+      <div class="name gap">
+        <h1>④nameから取得する場合</h1>
+        <button id="nameanswer">答えを見る</button>
+      </div>
+
+      <div class="selector gap">
+        <h1>⑤CSSセレクタから取得する場合（1つだけ）</h1>
+        <button id="selectoranswer">答えを見る</button>
+      </div>
+
+      <div class="selectors gap">
+        <h1>⑥CSSセレクタから取得する場合（マッチする要素すべて）</h1>
+        <button id="selectorsanswer">答えを見る</button>
+      </div>
+
+      <div class="parentelement gap">
+        <h1>⑦親要素を取得する場合</h1>
+        <button id="parentanswer">答えを見る</button>
+      </div>
+
+      <div class="childelements gap">
+        <h1>⑧子要素を取得する場合</h1>
+        <button id="childeanswer">答えを見る</button>
+      </div>
+    </section>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
